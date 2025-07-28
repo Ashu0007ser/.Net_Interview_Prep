@@ -17,6 +17,5 @@ var list2 = list1;  // list2 references same object as list1
 list1.Add(4);       // Both list1 and list2 now contain {1, 2, 3, 4}
 
 
-
 Value types: int, double, bool, struct, enum, DateTime
 Reference types: string, object, arrays, class, interface, delegate
