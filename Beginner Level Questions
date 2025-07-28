@@ -5,7 +5,7 @@ Value types store data directly in the variable's memory location. When assigned
 Reference types store a reference (pointer) to the memory location where data is stored. When assigned, only the reference is copied.
 
 Code Example:
-
+```c#
 // Value type
 int a = 10;
 int b = a;  // b gets a copy of a's value
@@ -15,7 +15,7 @@ a = 20;     // a = 20, b = 10
 var list1 = new List<int> {1, 2, 3};
 var list2 = list1;  // list2 references same object as list1
 list1.Add(4);       // Both list1 and list2 now contain {1, 2, 3, 4}
-
+```
 
 Value types: int, double, bool, struct, enum, DateTime
 Reference types: string, object, arrays, class, interface, delegate
