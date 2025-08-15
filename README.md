@@ -1,4 +1,4 @@
-# .NET Interview Topics - Complete Checklist
+# .NET Interview Topics - Complete Checklist It will updated weekley
 
 ## Core .NET Framework & CLR Concepts
 
